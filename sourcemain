@@ -1,0 +1,374 @@
+Wait(2)
+local ScreenGui = Instance.new("ScreenGui")
+local Background = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Background.Name = "Background"
+Background.Parent = ScreenGui
+Background.BackgroundColor3 = Color3.fromRGB(83, 78, 76)
+Background.Position = UDim2.new(-0.0086607933, 0, -0.0463794731, 0)
+Background.Size = UDim2.new(0, 1962, 0, 1962)
+Background.Visible = false
+Background.Transparency = 0
+
+Frame.Parent = Background
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(-0.00426670583, 0, -0.0069749658, 0)
+Frame.Size = UDim2.new(0, 1952, 0, 42)
+
+TextLabel.Parent = Background
+TextLabel.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextLabel.Position = UDim2.new(-0.0030046904, 0, 0.0501128957, 0)
+TextLabel.Size = UDim2.new(0, 1948, 0, 176)
+TextLabel.Font = Enum.Font.Creepster
+TextLabel.Text = "ANIME WARE"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 92.000
+
+TextLabel_2.Parent = Background
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+TextLabel_2.Position = UDim2.new(-0.00426670583, 0, 0.696369171, 0)
+TextLabel_2.Size = UDim2.new(0, 1952, 0, 274)
+TextLabel_2.Font = Enum.Font.Creepster
+TextLabel_2.Text = "MADE BY SH6LY ENJOY!"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 100.000
+
+TextLabel_3.Parent = Background
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(0.0173015222, 0, 0.272266239, 0)
+TextLabel_3.Size = UDim2.new(0, 576, 0, 355)
+TextLabel_3.ZIndex = 0
+TextLabel_3.Font = Enum.Font.Creepster
+TextLabel_3.Text = "ANIME WARE ON TOP WE BEATING EVERONE!"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 22.000
+
+TextLabel_4.Parent = Background
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Position = UDim2.new(0.687791824, 0, 0.273084134, 0)
+TextLabel_4.Size = UDim2.new(0, 572, 0, 353)
+TextLabel_4.ZIndex = 0
+TextLabel_4.Font = Enum.Font.Creepster
+TextLabel_4.Text = "ANIME WARE ON TOP WE BEATING EVERONE!"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 22.000
+
+ImageLabel.Parent = Background
+ImageLabel.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
+ImageLabel.Position = UDim2.new(0.330509663, 0, 0.273084134, 0)
+ImageLabel.Size = UDim2.new(0, 658, 0, 355)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=2936217481"
+ImageLabel.ImageColor3 = Color3.fromRGB(71, 65, 65)
+
+wait(1.2)
+Background.Visible = true
+Frame.Visible = true
+TextLabel.Visible = true
+TextLabel_2.Visible = true
+TextLabel_3.Visible = true
+TextLabel_4.Visible = true
+ImageLabel.Visible = true
+wait(3)
+Background.Transparency = 0.1
+Frame.Transparency = 0.1
+TextLabel.Transparency = 0.1
+TextLabel_2.Transparency = 0.1
+TextLabel_3.Transparency = 0.1
+TextLabel_4.Transparency = 0.1
+ImageLabel.Transparency = 0.1
+wait()
+Background.Transparency = 0.2
+Frame.Transparency = 0.2
+TextLabel.Transparency = 0.2
+TextLabel_2.Transparency = 0.2
+TextLabel_3.Transparency = 0.2
+TextLabel_4.Transparency = 0.2
+ImageLabel.Transparency = 0.2
+wait(0.2)
+Background.Transparency = 0.3
+Frame.Transparency = 0.3
+TextLabel.Transparency = 0.3
+TextLabel_2.Transparency = 0.3
+TextLabel_3.Transparency = 0.3
+TextLabel_4.Transparency = 0.3
+ImageLabel.Transparency = 0.3
+wait(0.2)
+Background.Transparency = 0.4
+Frame.Transparency = 0.4
+TextLabel.Transparency = 0.4
+TextLabel_2.Transparency = 0.4
+TextLabel_3.Transparency = 0.4
+TextLabel_4.Transparency = 0.4
+ImageLabel.Transparency = 0.4
+wait(0.2)
+Background.Transparency = 0.5
+Frame.Transparency = 0.5
+TextLabel.Transparency = 0.5
+TextLabel_2.Transparency = 0.5
+TextLabel_3.Transparency = 0.5
+TextLabel_4.Transparency = 0.5
+ImageLabel.Transparency = 0.5
+wait(0.2)
+Background.Transparency = 0.6
+Frame.Transparency = 0.6
+TextLabel.Transparency = 0.6
+TextLabel_2.Transparency = 0.6
+TextLabel_3.Transparency = 0.6
+TextLabel_4.Transparency = 0.6
+ImageLabel.Transparency = 0.6
+wait(0.2)
+Background.Transparency = 0.7
+Frame.Transparency = 0.7
+TextLabel.Transparency = 0.7
+TextLabel_2.Transparency = 0.7
+TextLabel_3.Transparency = 0.7
+TextLabel_4.Transparency = 0.7
+ImageLabel.Transparency = 0.7
+wait(0.2)
+Background.Transparency = 0.8
+Frame.Transparency = 0.8
+TextLabel.Transparency = 0.8
+TextLabel_2.Transparency = 0.8
+TextLabel_3.Transparency = 0.8
+TextLabel_4.Transparency = 0.8
+ImageLabel.Transparency = 0.8
+wait(0.2)
+Background.Transparency = 0.9
+Frame.Transparency = 0.9
+TextLabel.Transparency = 0.9
+TextLabel_2.Transparency = 0.9
+TextLabel_3.Transparency = 0.9
+TextLabel_4.Transparency = 0.9
+ImageLabel.Transparency = 0.9
+wait(0.2)
+Background.Transparency = 1
+Frame.Transparency = 1
+TextLabel.Transparency = 1
+TextLabel_2.Transparency = 1
+TextLabel_3.Transparency = 1
+TextLabel_4.Transparency = 1
+ImageLabel.Transparency = 1
+wait(0.2)
+Background.Visible = false
+Frame.Visible = false
+TextLabel.Visible = false
+TextLabel_2.Visible = false
+TextLabel_3.Visible = false
+TextLabel_4.Visible = false
+ImageLabel.Visible = false
+wait(0.2)
+
+wait(0.5)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "ANIMEWARE(Xenzone Remake)";
+Text = "Made By Ryuu#2222";
+})
+
+
+local StarterGui = game:GetService("StarterGui")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local function SendNotification(Ti,Te)
+    StarterGui:SetCore('SendNotification', {Title = tostring(Ti), Text = tostring(Te)})
+end
+
+local Mouse = LocalPlayer:GetMouse()
+
+Mouse.KeyDown:Connect(function(key)
+    if key == string.lower(getgenv().Keybinds["Toggle Reach"]) then
+        if getgenv().Configuration["Active"] == false then return end
+        getgenv().Circle["Enabled"] = not getgenv().Circle["Enabled"]
+        if getgenv().Configuration["Notifications"] == true then
+            SendNotification("ANIME WARE","REACH = "..tostring(getgenv().Circle["Enabled"]))
+        end
+    elseif key == string.lower(getgenv().Keybinds["Toggle AC"]) then
+        if getgenv().Configuration["Active"] == false then return end
+        getgenv().Configuration["Auto Clicker"] = not getgenv().Configuration["Auto Clicker"]
+        if getgenv().Configuration["Notifications"] == true then
+            SendNotification("ANIME WARE","ANIME CLICKER = "..tostring(getgenv().Configuration["Auto Clicker"]))
+        end
+    elseif key == string.lower(getgenv().Keybinds["Fake Handle FTI Toggle"]) then
+        if getgenv().Configuration["Active"] == false then return end
+        getgenv().Configuration["Fake Handle FTI"] = not getgenv().Configuration["Fake Handle FTI"]
+        if getgenv().Configuration["Notifications"] == true then
+            SendNotification("ANIME WARE","ADVANCED ANTI MODE = "..tostring(getgenv().Configuration["Fake Handle FTI"]))
+        end
+    elseif key == string.lower(getgenv().Keybinds["Increase Reach"]) then
+        if getgenv().Configuration["Active"] == false then return end
+        getgenv().Circle["Size"] = getgenv().Circle["Size"] + getgenv().Configuration["Increase Size"]
+        if getgenv().Configuration["Notifications"] == true then
+            SendNotification("ANIME WARE","SIZE = "..getgenv().Circle["Size"])
+        end
+    elseif key == string.lower(getgenv().Keybinds["Decrease Reach"]) then
+        if getgenv().Configuration["Active"] == false then return end
+        getgenv().Circle["Size"] = getgenv().Circle["Size"] - getgenv().Configuration["Decrease Size"]
+        if getgenv().Configuration["Notifications"] == true then
+            SendNotification("ANIME WARE","SIZE = "..getgenv().Circle["Size"])
+        end
+    elseif key == string.lower(getgenv().Keybinds["Notifications Toggle"]) then
+        getgenv().Configuration["Notifications"] = not getgenv().Configuration["Notifications"]
+        SendNotification("ANIME WARE","Notifications = "..tostring(getgenv().Configuration["Notifications"]))
+    elseif key == string.lower(getgenv().Keybinds["Toggle Script"]) then
+        getgenv().Configuration["Active"] = not getgenv().Configuration["Active"]
+        if getgenv().Configuration["Notifications"] == true then
+            SendNotification("ANIME WARE","ANIME WARE SCRIPT = "..tostring(getgenv().Configuration["Active"]))
+        end
+    end
+end)
+
+hookfunction(gcinfo or collectgarbage, function(...)
+    if getgenv().Configuration["Active"] == false then return end
+    return math.random(200,400)
+end)
+
+local HitParts = {}
+local t = tick()
+
+local FTI = function(hit,handle)
+    local Humanoid = hit.Parent:FindFirstChild("Humanoid")
+    if Humanoid and Humanoid.Health ~= 0 and hit.Parent.Name ~= LocalPlayer.Character.Name then
+        if getgenv().Configuration["Transparency Check"] == true then if hit.Transparency > 0.8 then return end end
+        local Region = Region3.new(handle.Position + Vector3.new(-1,-1,-1), handle.Position + Vector3.new(1,1,1))
+        local InRegion = game:GetService("Workspace"):FindPartsInRegion3(Region)
+        if getgenv().Configuration["Fake Handle FTI"] then
+            for _,v in pairs(InRegion) do
+                if v:IsA("Part") and v:FindFirstChildOfClass("TouchTransmitter") and v.Name ~= "Handle" then
+                    if getgenv().Circle["Random FTI"] == true then
+                        for i,parts in pairs(hit.Parent:GetChildren()) do
+                            if parts:IsA("Part") then
+                                if table.find(getgenv().Circle["Whitelisted Limbs"],parts.Name) then
+                                    if not table.find(HitParts,parts.Name) then
+                                        if #HitParts >= 6 then table.clear(HitParts) end
+                                        table.insert(HitParts,parts.Name)
+                                        if math.abs(tick() - t) < 0.1 then return end
+                                        t = tick()
+                                        firetouchinterest(parts,v,0)
+                                        firetouchinterest(parts,v,1)
+                                        firetouchinterest(parts,handle,0)
+                                        firetouchinterest(parts,handle,1)
+                                    end
+                                end
+                            end
+                            end
+                    else
+                        for i,parts in pairs(hit.Parent:GetChildren()) do
+                            if parts:IsA("Part") then
+                                if table.find(getgenv().Circle["Whitelisted Limbs"],parts.Name) then
+                                    firetouchinterest(parts,v,0)
+                                    firetouchinterest(parts,v,1)
+                                    firetouchinterest(parts,handle,0)
+                                    firetouchinterest(parts,handle,1)
+                                end
+                            end
+                        end
+                    end
+                end
+                end
+        else
+            for _,v in pairs(InRegion) do
+                if v:IsA("Part") and v:FindFirstChildOfClass("TouchTransmitter") then
+                    if getgenv().Circle["Random FTI"] == true then
+                        for i,parts in pairs(hit.Parent:GetChildren()) do
+                            if parts:IsA("Part") then
+                                if table.find(getgenv().Circle["Whitelisted Limbs"],parts.Name) then
+                                    if not table.find(HitParts,parts.Name) then
+                                        if #HitParts >= 6 then table.clear(HitParts) end
+                                        table.insert(HitParts,parts.Name)
+                                        if math.abs(tick() - t) < 0.1 then return end
+                                        t = tick()
+                                        firetouchinterest(parts,v,0)
+                                        firetouchinterest(parts,v,1)
+                                    end
+                                end
+                            end
+                            end
+                    else
+                        for i,parts in pairs(hit.Parent:GetChildren()) do
+                            if parts:IsA("Part") then
+                                if table.find(getgenv().Circle["Whitelisted Limbs"],parts.Name) then
+                                    firetouchinterest(parts,v,0)
+                                    firetouchinterest(parts,v,1)
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+local IsTeam = function(Player)
+    if Player.Team == LocalPlayer.Team then
+        return true
+    else 
+        return false
+    end
+end
+
+game:GetService("RunService").RenderStepped:Connect(function()
+    if getgenv().Configuration["Active"] == false then return end
+    if getgenv().Circle["Enabled"] == false then return end
+    local Tool = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Tool")
+    if Tool then
+        if getgenv().Configuration["Auto Clicker"] and LocalPlayer.Character.Humanoid.Health ~= 0 then Tool:Activate() Tool:Activate() end
+        local Handle = Tool:FindFirstChild("Handle")
+        if Handle then
+            local Size = getgenv().Circle["Size"]
+            if getgenv().Configuration["Team Check"] == true then
+                for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+                    if IsTeam(v) == false then
+                        local HRP = v.Character and v.Character:FindFirstChild("HumanoidRootPart")
+                        if HRP then
+                            local Distance = (HRP.Position - Handle.Position).Magnitude
+                            if Distance <= Size then
+                                FTI(HRP,Handle)
+                            end
+                        end
+                    end
+                end
+            else
+                for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+                    local HRP = v.Character and v.Character:FindFirstChild("HumanoidRootPart")
+                    if HRP then
+                        local Distance = (HRP.Position - Handle.Position).Magnitude
+                        if Distance <= Size then
+                            FTI(HRP,Handle)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end)
+
+local hook;
+hook = hookfunc(getrenv().wait, newcclosure(function(...)
+    local args = {...}
+    if args[1] == 3 and getcallingscript().Parent == nil then
+        return coroutine.yield()
+    end
+    return hook(...)
+end))
+
+local hook;
+hook = hookfunc(getrenv().wait, newcclosure(function(...)
+    local args = {...}
+    if args[1] == 2 and getcallingscript().Parent == nil then
+        return coroutine.yield()
+    end
+    return hook(...)
+end))
