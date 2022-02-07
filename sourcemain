@@ -1,5 +1,0 @@
-wait(0.5)
-game:GetService("StarterGui"):SetCore("SendNotification",{
-Title = "ANIMEWARE(Xenzone Remake)";
-Text = "Made By Ryuu#2222";
-})
